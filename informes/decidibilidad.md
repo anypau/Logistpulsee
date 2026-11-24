@@ -1,0 +1,13 @@
+# Decidibilidad, computabilidad y complejidad
+
+Un problema de decisión corresponde a un lenguaje de entradas codificadas cuya respuesta es sí. Es decidible si una máquina de Turing determinista termina en toda entrada válida y acepta exactamente las instancias afirmativas. Una función es computable si existe un procedimiento efectivo que produce su salida en el dominio considerado; para funciones totales debe terminar en todas las entradas del dominio. En LOGISTPULSE las instancias son finitas y los algoritmos se expresan en Python como modelo operacional equivalente para estos procedimientos.
+
+La complejidad cuantifica recursos en función del tamaño de entrada: tiempo y espacio. P contiene problemas de decisión con algoritmos deterministas polinómicos. NP contiene problemas de decisión con certificados afirmativos de longitud polinómica y verificadores polinómicos. P está incluido en NP. Los problemas NP-completos pertenecen a NP y son NP-hard mediante reducciones polinómicas. No se ha demostrado P≠NP.
+
+Por ejemplo, para TSP de decisión con n centros y límite L se enumeran (n−1)! órdenes fijando origen. Cada tour se evalúa y se acepta si su costo no supera L; si se agotan, se rechaza. El algoritmo termina para cualquier matriz finita, aunque el crecimiento factorial puede volverlo inútil para una red grande. Decidible no significa eficiente. Verificar un tour propuesto es mucho más sencillo que enumerar todos.
+
+El problema de la parada pregunta si un programa M termina sobre una entrada w. Supongamos un decisor H(M,w) total. Construimos D(x) que entra en bucle si H(x,x) afirma que termina, y termina si H afirma que no. Aplicar D a su propia descripción contradice cualquiera de las respuestas de H. Por tanto, tal decisor general no existe. La pregunta de terminación para todas las entradas también es indecidible: dado M,w, construir un programa que ignora su entrada y simula M(w); termina para todas las entradas exactamente cuando M(w) termina. Un decisor de terminación universal decidiría la parada.
+
+En la operación logística conviene utilizar algoritmos polinómicos cuando sus supuestos aplican. Para instancias NP-completas pequeñas se puede usar búsqueda exacta; para grandes pueden usarse heurísticas, que no garantizan optimalidad ni permiten concluir inexistencia por no encontrar una solución. La distinción evita confundir una limitación de recursos con una imposibilidad computacional.
+
+Referencias: Sipser, Introduction to the Theory of Computation; Cormen et al., Introduction to Algorithms; Cook (1971), The complexity of theorem-proving procedures; Karp (1972), Reducibility among combinatorial problems.
