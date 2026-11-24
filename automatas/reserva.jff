@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure><type>fa</type><automaton>
+<state id="0" name="q0"><x>80</x><y>100</y><label>Solicitada</label><initial/></state>
+<state id="1" name="q1"><x>225</x><y>100</y><label>Validada</label></state>
+<state id="2" name="q2"><x>370</x><y>100</y><label>Reservada</label></state>
+<state id="3" name="q3"><x>515</x><y>100</y><label>Consumida</label><final/></state>
+<state id="4" name="q4"><x>660</x><y>100</y><label>Liberada</label><final/></state>
+<state id="5" name="q5"><x>805</x><y>100</y><label>Expirada</label><final/></state>
+<state id="6" name="q6"><x>80</x><y>240</y><label>Rechazada</label><final/></state>
+<transition><from>0</from><to>1</to><read>v</read></transition>
+<transition><from>0</from><to>6</to><read>s</read></transition>
+<transition><from>1</from><to>2</to><read>c</read></transition>
+<transition><from>2</from><to>3</to><read>p</read></transition>
+<transition><from>2</from><to>4</to><read>x</read></transition>
+<transition><from>2</from><to>5</to><read>z</read></transition>
+</automaton></structure>
