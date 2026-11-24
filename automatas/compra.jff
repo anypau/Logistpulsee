@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure><type>fa</type><automaton>
+<state id="0" name="q0"><x>80</x><y>100</y><label>Borrador</label><initial/></state>
+<state id="1" name="q1"><x>225</x><y>100</y><label>En aprobacion</label></state>
+<state id="2" name="q2"><x>370</x><y>100</y><label>Aprobada</label></state>
+<state id="3" name="q3"><x>515</x><y>100</y><label>Enviada</label></state>
+<state id="4" name="q4"><x>660</x><y>100</y><label>Recepcion parcial</label></state>
+<state id="5" name="q5"><x>805</x><y>100</y><label>Recibida</label><final/></state>
+<state id="6" name="q6"><x>80</x><y>240</y><label>Rechazada</label><final/></state>
+<transition><from>0</from><to>1</to><read>s</read></transition>
+<transition><from>1</from><to>2</to><read>a</read></transition>
+<transition><from>1</from><to>6</to><read>r</read></transition>
+<transition><from>2</from><to>3</to><read>e</read></transition>
+<transition><from>3</from><to>4</to><read>p</read></transition>
+<transition><from>3</from><to>5</to><read>c</read></transition>
+<transition><from>4</from><to>5</to><read>t</read></transition>
+</automaton></structure>
