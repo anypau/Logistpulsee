@@ -48,4 +48,13 @@ Entrada: grafo no dirigido G=(V,E), entero k. ¿Existe S⊆V, |S|≤k, con al me
 | C2 | NP-completo | Permutaciones | O(n!) operaciones |
 | C3 | NP-completo | Subconjuntos | O(2^V(V+E)) |
 
-Todos decidibles. Ejecutar desde raíz: python -m unittest discover -s tests -v. Los valores anteriores son resultados esperados, no un registro de ejecución. Revisión y retrospectiva reales pendientes.
+Todos decidibles. Ejecutar desde raíz: `python -m unittest discover -s tests -v`. Los diez casos tienen resultados esperados descritos y pruebas ejecutables. La [captura de ejecución](../evidencias/pruebas_python.png) documenta 23 pruebas correctas en conjunto, incluidas las 10 del Sprint 3.
+
+## Gestión y cierre
+Backlog: formalizar los diez correos, implementar algoritmos y verificadores, justificar las reducciones, documentar la parada y preparar la exposición.
+
+Responsabilidades asignadas según [contribuciones](contribuciones.md): Ana Paula Lopez — P1, P3, N1, N3 y C1; Felipe Armas — P2, N2, N4, C2 y C3.
+
+Evidencias: [código](../algoritmos/casos.py), [pruebas](../tests/), [nota de decidibilidad](../informes/decidibilidad.md), [guion](../presentacion/guion.md) y [release v1.0.0](https://github.com/anypau/Logistpulsee/releases/tag/v1.0.0).
+
+Consultar [revisión de Felipe](revision_felipe.md) y [retrospectivas](../retrospectivas.md). Las confirmaciones personales y fechas de revisión corresponden a los integrantes.
