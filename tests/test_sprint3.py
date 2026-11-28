@@ -30,11 +30,13 @@ class Correos(unittest.TestCase):
         self.assertTrue(verify_factor(91,10,7))
         self.assertFalse(verify_factor(91,10,3))
         self.assertIsNone(factor(13,10))
+        self.assertFalse(verify_factor(0,10,7))  # N fuera de dominio
     def test_n3(self):
         self.assertEqual(discrete(23,5,8,10),6)
         self.assertTrue(verify_log(23,5,8,10,6))
         self.assertFalse(verify_log(23,5,8,10,5))
         self.assertIsNone(discrete(23,5,8,5))
+        self.assertFalse(verify_log(0,5,8,10,6))  # modulo invalido
     def test_n4(self):
         A=[[0,1,1],[1,0,1],[1,1,0]]
         self.assertTrue(verify_auto(A,iso(A,A,True)))
@@ -45,6 +47,7 @@ class Correos(unittest.TestCase):
         self.assertTrue(verify_sat(C,3,sat(C,3)))
         self.assertIsNone(sat([[1],[-1]],1))
         self.assertFalse(verify_sat(C,3,{1:False,2:True,3:False}))
+        self.assertFalse(verify_sat([[4]],3,{1:True,2:True,3:True}))  # literal fuera de rango
     def test_c2(self):
         D=[[0,4,8],[4,0,3],[8,3,0]]
         p,c=tsp(D,20)
@@ -52,11 +55,13 @@ class Correos(unittest.TestCase):
         self.assertTrue(verify_tsp(D,20,p))
         self.assertIsNone(tsp(D,14))
         self.assertFalse(verify_tsp(D,20,(0,1,1,0)))
+        self.assertFalse(verify_tsp([[0,1],[1]],20,(0,1,0)))  # matriz no cuadrada
     def test_c3(self):
         V=["A","B","C"];E=[("A","B"),("B","C")]
         self.assertEqual(cover(V,E,1),{"B"})
         self.assertTrue(verify_cover(V,E,1,{"B"}))
         self.assertFalse(verify_cover(V,E,1,{"A"}))
         self.assertIsNone(cover(V,E,0))
+        self.assertFalse(verify_cover(V,E+[("B","Z")],1,{"B"}))  # extremo fuera de V
 
 if __name__=="__main__":unittest.main()
