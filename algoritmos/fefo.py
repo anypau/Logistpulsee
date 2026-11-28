@@ -1,6 +1,23 @@
 from datetime import date
 
 def fefo(lotes, cantidad, hoy):
+    """Selección FEFO (First Expired, First Out).
+
+    Entrada: lotes (codigo, vencimiento, disponible) con código único,
+    cantidad pedida (entero >= 0) y fecha actual.
+    Salida: {"completo", "plan", "pendiente"}.
+
+    Elegibilidad: el lote vence hoy o después y tiene disponible > 0.
+    Orden: vencimiento ascendente y, si empatan, código ascendente
+    (desempate reproducible).
+    Política ante stock insuficiente: la reserva se RECHAZA (completo=False);
+    no se reserva parcialmente ni se modifica el inventario. El plan parcial
+    y la cantidad pendiente se devuelven solo como información para decidir
+    esperar la reposición.
+    Terminación: recorre como máximo L lotes.
+    Tiempo O(L log L) por el ordenamiento (O(L) si ya vienen ordenados);
+    espacio O(L).
+    """
     if type(cantidad) is not int or cantidad < 0:
         raise ValueError("Cantidad invalida")
     if not isinstance(hoy, date):
@@ -15,7 +32,7 @@ def fefo(lotes, cantidad, hoy):
             raise ValueError("Lote invalido")
         if vencimiento >= hoy and disponible > 0:
             candidatos.append((vencimiento, codigo, disponible))
-    candidatos.sort()
+    candidatos.sort()  # tuplas: (vencimiento, codigo) define el orden FEFO
     plan = []
     pendiente = cantidad
     for vencimiento, codigo, disponible in candidatos:
