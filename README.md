@@ -42,4 +42,4 @@ Los resultados anteriores corresponden a las evidencias registradas; no garantiz
 El informe final y la presentación en PDF se entregan por separado junto al enlace del repositorio. El release v1.0.0 está publicado; las actualizaciones posteriores de documentación se registran en el historial de la rama principal.
 
 ## Cierre de gestión
-La distribución de responsabilidades y las retrospectivas están documentadas. La confirmación individual de aportes y reflexiones, así como las fechas de revisión por pares, corresponde a los integrantes. No se atribuyen reuniones o aprobaciones no verificadas.
+La distribución de responsabilidades, las revisiones y las retrospectivas están documentadas y han sido confirmadas según la validación comunicada por el equipo. La participación acordada es equitativa (50 % por integrante). No se consignan fechas de reuniones no documentadas. La rama principal contiene el cierre documental actualizado; el release v1.0.0 conserva la versión etiquetada original.
