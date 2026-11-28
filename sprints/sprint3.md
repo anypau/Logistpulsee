@@ -57,4 +57,4 @@ Responsabilidades asignadas según [contribuciones](contribuciones.md): Ana Paul
 
 Evidencias: [código](../algoritmos/casos.py), [pruebas](../tests/), [nota de decidibilidad](../informes/decidibilidad.md), [guion](../presentacion/guion.md) y [release v1.0.0](https://github.com/anypau/Logistpulsee/releases/tag/v1.0.0).
 
-Consultar [revisión de Felipe](revision_felipe.md) y [retrospectivas](../retrospectivas.md). Las confirmaciones personales y fechas de revisión corresponden a los integrantes.
+Consultar [revisión de Felipe](revision_felipe.md) y [retrospectivas](../retrospectivas.md). Aportes y reflexiones revisados y confirmados según la validación comunicada por el equipo.
