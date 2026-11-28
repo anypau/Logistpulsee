@@ -37,9 +37,9 @@ Los resultados anteriores corresponden a las evidencias registradas; no garantiz
 ## Informe, presentación y versión
 - [Decidibilidad y parada](informes/decidibilidad.md)
 - [Guion de exposición](presentacion/guion.md)
-- [Release v1.0.0](https://github.com/anypau/Logistpulsee/releases/tag/v1.0.0)
+- [Release final v2.0.0](https://github.com/anypau/Logistpulsee/releases/tag/v2.0.0) (v1.0.0 es la versión preliminar)
 
-El informe final y la presentación en PDF se entregan por separado junto al enlace del repositorio. El release v1.0.0 está publicado; las actualizaciones posteriores de documentación se registran en el historial de la rama principal.
+El informe final y la presentación en PDF se entregan por separado junto al enlace del repositorio. El release final v2.0.0 está publicado; las actualizaciones posteriores de documentación se registran en el historial de la rama principal.
 
 ## Cierre de gestión
-La distribución de responsabilidades, las revisiones y las retrospectivas están documentadas y han sido confirmadas según la validación comunicada por el equipo. La participación acordada es equitativa (50 % por integrante). No se consignan fechas de reuniones no documentadas. La rama principal contiene el cierre documental actualizado; el release v1.0.0 conserva la versión etiquetada original.
+La distribución de responsabilidades, las revisiones y las retrospectivas están documentadas y han sido confirmadas según la validación comunicada por el equipo. La participación acordada es equitativa (50 % por integrante). No se consignan fechas de reuniones no documentadas. La rama principal contiene el cierre documental actualizado; el release v2.0.0 conserva la versión etiquetada de la entrega final y v1.0.0 la versión preliminar.
