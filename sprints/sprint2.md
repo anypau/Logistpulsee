@@ -51,5 +51,11 @@ Casos normales: ruta de 11 m, FEFO con desempate, reposición de 27 unidades.
 Casos límite: destino igual al origen, bloqueo de E, stock insuficiente, demanda cero, posición igual al mínimo, orden abierta.
 Casos inválidos: peso negativo, demanda negativa, inventario negativo y SKU duplicado.
 
-## Gestión
-Backlog: implementar Dijkstra, FEFO, reposición, pruebas y análisis. Revisión por pares y retrospectiva pendientes de realizar y registrar por el equipo. No se simula evidencia de reuniones.
+## Gestión y cierre
+Backlog: implementar Dijkstra, FEFO y reposición; analizar terminación y complejidad; validar casos normales, límite e inválidos.
+
+Responsabilidades asignadas según [contribuciones](contribuciones.md): Ana Paula Lopez — FEFO y reposición; Felipe Armas — Dijkstra y complejidad.
+
+Resultado documentado: 13 pruebas del Sprint 2 correctas en la ejecución conjunta de 23 pruebas de Python. [Código de pruebas](../tests/test_sprint2.py) y [captura de ejecución](../evidencias/pruebas_python.png).
+
+Consultar [revisión de Felipe](revision_felipe.md) y [retrospectivas del equipo](../retrospectivas.md). La confirmación individual y las fechas de revisión corresponden a los integrantes.
