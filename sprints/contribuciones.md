@@ -2,7 +2,7 @@
 
 Integrantes: Ana Paula Lopez y Felipe Armas.
 
-Distribución acordada como objetivo de participación: 50 % para cada integrante.
+Distribución de responsabilidades revisada y confirmada por el equipo: participación equitativa (50 % para cada integrante).
 
 | Actividad | Ana Paula Lopez | Felipe Armas |
 |---|---|---|
@@ -12,6 +12,6 @@ Distribución acordada como objetivo de participación: 50 % para cada integrant
 | Validación | Organización de evidencias | Revisión de código y verificadores |
 | Informe | Redacción y organización | Documentación técnica y revisión |
 | Exposición | Primera mitad | Segunda mitad |
-| Participación prevista | 50 % | 50 % |
+| Participación acordada | 50 % | 50 % |
 
-La distribución describe responsabilidades asignadas, no una medición independiente del trabajo efectivamente realizado. Ambos integrantes deben confirmar sus aportes y registrar las revisiones y retrospectivas reales. Los commits identifican la cuenta que realizó la integración al repositorio, no necesariamente la autoría individual de cada componente.
+La distribución refleja las responsabilidades y aportes confirmados según la validación comunicada por el equipo. Las revisiones y retrospectivas se documentan en revision_felipe.md y ../retrospectivas.md. Los commits identifican la cuenta que realizó la integración al repositorio, no necesariamente la autoría individual de cada componente.
