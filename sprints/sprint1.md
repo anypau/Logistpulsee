@@ -51,4 +51,4 @@ Responsabilidades asignadas según [contribuciones](contribuciones.md): Ana Paul
 
 Resultado documentado: 12 de 12 pruebas JFLAP correctas. [Capturas](../evidencias/jflap/).
 
-Revisión técnica: contrastar las cadenas esperadas con las capturas y verificar la ruta de 11 m. Consultar [revisión de Felipe](revision_felipe.md) y [retrospectivas del equipo](../retrospectivas.md). La confirmación individual de aportes, reflexiones y fechas de revisión corresponde a los integrantes.
+Revisión técnica: contrastar las cadenas esperadas con las capturas y verificar la ruta de 11 m. Consultar [revisión de Felipe](revision_felipe.md) y [retrospectivas del equipo](../retrospectivas.md). Aportes y reflexiones revisados y confirmados según la validación comunicada por el equipo; no se consignan fechas de reunión no documentadas.
