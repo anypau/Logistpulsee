@@ -2,7 +2,7 @@
 
 Integrantes: Felipe Armas y Ana Paula Lopez.
 
-Borrador para revisión y confirmación de ambos integrantes. Las reflexiones propuestas deben ajustarse a su experiencia real; los resultados de las pruebas corresponden a las evidencias disponibles.
+Retrospectivas finales, revisadas y confirmadas según la validación comunicada por el equipo. Los resultados de las pruebas corresponden a las evidencias disponibles.
 
 ## Sprint 1 — Autómatas y grafos
 
@@ -49,4 +49,4 @@ Resultado observado: 10 pruebas de Python superadas, según la ejecución conjun
 
 ## Cierre
 
-Las evidencias registran 35 pruebas exitosas en total. Queda por confirmar la fecha y las observaciones de cada revisión por ambos integrantes antes de cerrar el proyecto.
+Las evidencias registran 35 pruebas exitosas en total. El equipo confirmó la revisión de las reflexiones y contribuciones para la entrega final. No se consignan fechas de reuniones que no estén documentadas.
