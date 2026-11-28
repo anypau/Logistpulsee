@@ -44,5 +44,11 @@ Inicial q0; F = {q5,q6}.
 ## Grafo
 Modelo no dirigido, pesos en metros, origen R, destino D. Ruta mínima R→B→A→E→D, costo 11 m. También R→B→A→P→E→D cuesta 11 m. Bloquear E desconecta D. Dijkstra requiere pesos no negativos. Con lista de adyacencia y cola de prioridad indexada: O((V+E) log V) tiempo y O(V+E) espacio incluyendo el grafo.
 
-## Gestión
-Backlog: revisar modelos, ejecutar las doce pruebas en JFLAP y guardar evidencia, revisar grafo. Responsables y retrospectiva reales pendientes de registrar por el equipo.
+## Gestión y cierre
+Backlog: formalizar los tres autómatas, probar doce secuencias en JFLAP, guardar evidencias y definir el grafo de planta.
+
+Responsabilidades asignadas según [contribuciones](contribuciones.md): Ana Paula Lopez — autómatas y pruebas JFLAP; Felipe Armas — grafo y formalización.
+
+Resultado documentado: 12 de 12 pruebas JFLAP correctas. [Capturas](../evidencias/jflap/).
+
+Revisión técnica: contrastar las cadenas esperadas con las capturas y verificar la ruta de 11 m. Consultar [revisión de Felipe](revision_felipe.md) y [retrospectivas del equipo](../retrospectivas.md). La confirmación individual de aportes, reflexiones y fechas de revisión corresponde a los integrantes.
